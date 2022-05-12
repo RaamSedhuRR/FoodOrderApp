@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Android Practice</string>
+    <string name="launchModes">Launch Modes</string>
+    <string name="button_one_label_1">Button one Label 1</string>
+    <string name="button_one_label_2">Button one Label 2</string>
+    <string name="txtStandard">Standard</string>
+    <string name="txtSingleTop">Single Top</string>
+    <string name="txtSingleTask">Single Task</string>
+    <string name="txtSingleInstance">Single Instance</string>
+    <string name="txtFirstTask">First Task</string>
+    <string name="txtSecondTask">Second Task</string>
+    <string name="txtLayouts">Layouts In Android</string>
+    <string name="txtLinearLayout">Linear Layout</string>
+    <string name="txtRelativeLayout">Relative Layout</string>
+    <string name="txtConstraintLayout">Constraint Layout</string>
+    <string name="txtConstraintLayoutDataBind">Constraint Layout With Data Bind</string>
+    <string name="txtFragmentLifeCycle">Fragment Life Cycle</string>
+    <string name="txtFragmentLayout">Fragment Layouts</string>
+    <string name="txtProgressBar">Progress Bar Service Activity</string>
+    <string name="txtDatBindingConstraint">Data Binding with Recycler</string>
+    <string name="txtCustomBroadcast">Custom Broadcast Receiver</string>
+    <string name="txtSharedPreference">Shared Preference Activity</string>
+    <string name="txtSqlDB">SQL DB Activity</string>
+    <string name="txtId">Enter Your Id</string>
+    <string name="txtName">Enter Your Name</string>
+    <string name="labelId">ID:</string>
+    <string name="labelName">Name:</string>
+    <string name="labelAge">Age:</string>
+    <string name="labelPhone">Phone:</string>
+    <string name="txtAge">Enter your Age</string>
+    <string name="txtPhoneNumber">Enter your Phone Number</string>
+    <string name="txtBoolean">Boolean Value</string>
+    <string name="txtSave">Save</string>
+    <string name="txtShow">Show</string>
+    <string name="btnAddDB">Add Data</string>
+    <string name="btnShowDB">Show Data</string>
+    <string name="btnVolley">Volley</string>
+    <string name="txtData">Click show to view the saved items !</string>
+    <string name="txtGetRequest">Click Here to see Get Request</string>
+    <string name="txtFloat">Enter a Float</string>
+    <string name="txtWifi">Wifi - On</string>
+    <string name="btnDataBindingConstraint">GetName</string>
+    <string name="txtStartService">Start Service</string>
+    <string name="txtGetTime">Get Time</string>
+    <string name="txtStopService">Stop Service</string>
+    <string name="txtForeGroundService">Foreground Service</string>
+    <string name="txtBoundService">Bound Service</string>
+    <string name="btnInsertData">Insert Data</string>
+    <string name="btnUpdateData">Update Data</string>
+    <string name="btnFetchData">Fetch Data</string>
+    <string name="btnDeleteData">Delete Data</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="txtLinearLayoutFragment">Linear Layout Fragment</string>
+    <string name="txtRelativeLayoutFragment">Relative Layout Fragment</string>
+    <string name="title_activity_fragment_layouts">FragmentLayoutsActivity</string>
+    <string name="titleLinear">Linear</string>
+    <string name="titleRelative">Relative</string>
+    <string name="titleConstraint">Constraint</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="values">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+
+</resources>

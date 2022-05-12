@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".fragments.SharedPreferencesFragment">
+
+    <EditText
+        android:id="@+id/editTxtName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:inputType="text"
+        android:hint="@string/txtName"
+        android:layout_marginLeft="@dimen/leftRightMargin"
+        android:layout_marginRight="@dimen/leftRightMargin"
+        tools:ignore="Autofill" />
+    <EditText
+        android:id="@+id/editTxtAge"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/editTxtName"
+        android:inputType="text"
+        android:hint="@string/txtAge"
+        android:layout_marginLeft="@dimen/leftRightMargin"
+        android:layout_marginRight="@dimen/leftRightMargin"
+        tools:ignore="Autofill" />
+
+    <Spinner
+        android:id="@+id/spinnerBool"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/editTxtAge"
+        android:layout_marginLeft="@dimen/leftRightMargin"
+        android:layout_marginRight="@dimen/leftRightMargin"
+        android:layout_width="300dp"
+        android:layout_height="50dp"/>
+    <EditText
+        android:id="@+id/editTxtFloat"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/spinnerBool"
+        android:inputType="text"
+        android:hint="@string/txtFloat"
+        android:layout_marginLeft="@dimen/leftRightMargin"
+        android:layout_marginRight="@dimen/leftRightMargin"
+        tools:ignore="Autofill" />
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/editTxtFloat"
+        android:hint="@string/txtSave"
+        android:textColor="@color/white"
+        android:textSize="@dimen/all_button_size"
+        android:layout_marginLeft="@dimen/leftRightMargin"
+        android:layout_marginRight="@dimen/leftRightMargin" />
+
+    <Button
+        android:id="@+id/showBtn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/saveBtn"
+        android:hint="@string/txtShow"
+        android:textColor="@color/white"
+        android:textSize="@dimen/all_button_size"
+        android:layout_marginLeft="@dimen/leftRightMargin"
+        android:layout_marginRight="@dimen/leftRightMargin" />
+
+    <TextView
+        android:background="@color/purple_700"
+        android:id="@+id/dataLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/showBtn"
+        android:layout_marginLeft="@dimen/leftRightMargin"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="@dimen/leftRightMargin"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/all_button_size" />
+</RelativeLayout>

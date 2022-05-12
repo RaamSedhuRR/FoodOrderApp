@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LaunchModeListActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="75dp"
+        android:background="@color/white"
+        android:text="@string/txtLayouts"
+        android:textAlignment="center"
+        android:textSize="@dimen/all_button_size"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/linearLayoutBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="@dimen/leftRightMargin"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="@dimen/leftRightMargin"
+        android:text="@string/txtLinearLayout"
+        android:textSize="@dimen/txtSmall" />
+
+    <Button
+        android:id="@+id/relativeLayoutBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/txtRelativeLayout"
+        android:textSize="@dimen/txtSmall"
+        android:layout_marginLeft="@dimen/leftRightMargin"
+        android:layout_marginRight="@dimen/leftRightMargin"
+        android:layout_marginTop="170dp"
+ />
+
+    <Button
+        android:id="@+id/constraintLayoutBtn"
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/txtConstraintLayout"
+        android:textSize="@dimen/txtSmall"
+        android:layout_marginLeft="@dimen/leftRightMargin"
+        android:layout_marginRight="@dimen/leftRightMargin"
+        android:layout_marginTop="240dp"
+ />
+
+    <Button
+        android:id="@+id/fragmentLifeCycleBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/txtFragmentLifeCycle"
+        android:textSize="@dimen/txtSmall"
+        android:layout_marginLeft="@dimen/leftRightMargin"
+        android:layout_marginRight="@dimen/leftRightMargin"
+        android:layout_marginTop="310dp"
+        />
+    <Button
+        android:id="@+id/fragmentLayoutBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/txtFragmentLayout"
+        android:textSize="@dimen/txtSmall"
+        android:layout_marginLeft="@dimen/leftRightMargin"
+        android:layout_marginRight="@dimen/leftRightMargin"
+        android:layout_marginTop="380dp"
+        />
+    <Button
+        android:id="@+id/progressBarBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/txtProgressBar"
+        android:textSize="@dimen/txtSmall"
+        android:layout_marginLeft="@dimen/leftRightMargin"
+        android:layout_marginRight="@dimen/leftRightMargin"
+        android:layout_marginTop="450dp"
+        />
+    <Button
+        android:id="@+id/constraintLayoutDataBindBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/txtDatBindingConstraint"
+        android:textSize="@dimen/txtSmall"
+        android:layout_marginLeft="@dimen/leftRightMargin"
+        android:layout_marginRight="@dimen/leftRightMargin"
+        android:layout_marginTop="520dp"
+        />
+    <Button
+        android:id="@+id/customBroadCast"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/txtCustomBroadcast"
+        android:textSize="@dimen/txtSmall"
+        android:layout_marginLeft="@dimen/leftRightMargin"
+        android:layout_marginRight="@dimen/leftRightMargin"
+        android:layout_marginTop="590dp"
+        />
+    <Button
+        android:id="@+id/btnSharedPreference"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/txtSharedPreference"
+        android:textSize="@dimen/txtSmall"
+        android:layout_marginLeft="@dimen/leftRightMargin"
+        android:layout_marginRight="@dimen/leftRightMargin"
+        android:layout_marginTop="660dp"
+        />
+    <Button
+        android:id="@+id/btnSqlDB"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/txtSqlDB"
+        android:textSize="@dimen/txtSmall"
+        android:layout_marginLeft="@dimen/leftRightMargin"
+        android:layout_marginRight="@dimen/leftRightMargin"
+        android:layout_marginTop="590dp"
+        />
+
+
+
+</RelativeLayout>

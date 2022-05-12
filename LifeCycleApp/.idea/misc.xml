@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.36666666666666664" />
+        <entry key="app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.198" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.198" />
+        <entry key="app/src/main/res/drawable/rounded_corner_view.xml" value="0.3575" />
+        <entry key="app/src/main/res/drawable/style_corner_view.xml" value="0.2885" />
+        <entry key="app/src/main/res/layout/activity_constraint_layoout_with_grid.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_constraint_layout_with_recycler_view_data_binding.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/activity_first.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_fragment_layout.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/activity_fragment_layouts.xml" value="0.2112420670897552" />
+        <entry key="app/src/main/res/layout/activity_fragment_life_cycle.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/activity_launchmodeList.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/activity_launchmodelistactivity.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/activity_linear_layout_with_recycler.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main1.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.21341653666146645" />
+        <entry key="app/src/main/res/layout/activity_relative_layout_with_list.xml" value="0.2654424040066778" />
+        <entry key="app/src/main/res/layout/activity_second.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/activity_service_progress_bar.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/activity_shared_preferences.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/activity_sqlite_dbactivity.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_third.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/fragment_bound_service.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/fragment_constraint_layout.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.2112420670897552" />
+        <entry key="app/src/main/res/layout/fragment_foreground_services.xml" value="0.2112420670897552" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.2112420670897552" />
+        <entry key="app/src/main/res/layout/fragment_life_cycle.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/fragment_linear_layou.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/fragment_linear_layout.xml" value="0.2112420670897552" />
+        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_people_list.xml" value="0.2112420670897552" />
+        <entry key="app/src/main/res/layout/fragment_relative_layout.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/fragment_save_data_sql_db.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/fragment_shared_preferences.xml" value="0.2112420670897552" />
+        <entry key="app/src/main/res/layout/fragment_volley.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/grid_item.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/grid_item_constraint.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/list_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/list_item_constraint_data_bind.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/list_item_linear.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/list_item_linear_horizontal.xml" value="0.2112420670897552" />
+        <entry key="app/src/main/res/layout/list_view_relative.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/user_list_data.xml" value="0.22030825022665457" />
+        <entry key="app/src/main/res/layout/user_list_data_style.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.198" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.198" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

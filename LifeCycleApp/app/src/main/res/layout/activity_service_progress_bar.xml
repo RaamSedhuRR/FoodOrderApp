@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ServiceProgressBarActivity">
+
+    <FrameLayout
+        android:id="@+id/frameLayoutService"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_marginBottom="29dp"
+        app:layout_constraintBottom_toTopOf="@+id/foregroundServiceBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/foregroundServiceBtn"
+        android:layout_width="136dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="37dp"
+        android:text="@string/txtForeGroundService"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/boundServiceBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayoutService" />
+
+    <Button
+        android:id="@+id/boundServiceBtn"
+        android:layout_width="136dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="56dp"
+        android:text="@string/txtBoundService"
+        app:layout_constraintBottom_toBottomOf="@+id/foregroundServiceBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/foregroundServiceBtn"
+        app:layout_constraintTop_toTopOf="@+id/foregroundServiceBtn" />
+</androidx.constraintlayout.widget.ConstraintLayout>
