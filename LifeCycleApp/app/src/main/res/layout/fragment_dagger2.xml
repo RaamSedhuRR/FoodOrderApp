@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Dagger2Fragment">
+
+    <EditText
+        android:id="@+id/inputField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:hint="@string/input_data"
+        android:textAlignment="center"
+        android:inputType="text"
+        android:autofillHints="no" />
+
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/inputField"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary"
+        android:text="@string/txtSave"
+        android:textSize="@dimen/txtSmall"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/outputField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/saveBtn"
+        android:layout_margin="32dp"
+        android:hint="@string/output_data"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/getBtn"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/outputField"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary"
+        android:textSize="@dimen/txtSmall"
+        android:text="@string/txtShow"
+        android:textColor="#ffffff" />
+
+
+
+
+</RelativeLayout>
