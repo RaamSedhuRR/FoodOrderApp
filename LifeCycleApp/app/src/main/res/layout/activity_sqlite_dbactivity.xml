@@ -36,15 +36,28 @@
         android:text="@string/btnShowDB"
         app:layout_constraintStart_toStartOf="@+id/sqlLiteFrameLayout"
         app:layout_constraintTop_toTopOf="@+id/sqlLiteFrameLayout" />
+
     <Button
         android:id="@+id/btnVolley"
         android:layout_width="120dp"
         android:layout_height="40dp"
-        android:layout_marginStart="135dp"
-        android:layout_marginTop="710dp"
-        android:textSize="12sp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="712dp"
         android:gravity="center"
         android:text="@string/btnVolley"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/sqlLiteFrameLayout"
+        app:layout_constraintTop_toTopOf="@+id/sqlLiteFrameLayout" />
+
+    <Button
+        android:id="@+id/btnRetrofit"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="712dp"
+        android:gravity="center"
+        android:text="@string/btnRetrofit"
+        android:textSize="12sp"
         app:layout_constraintStart_toStartOf="@+id/sqlLiteFrameLayout"
         app:layout_constraintTop_toTopOf="@+id/sqlLiteFrameLayout" />
 

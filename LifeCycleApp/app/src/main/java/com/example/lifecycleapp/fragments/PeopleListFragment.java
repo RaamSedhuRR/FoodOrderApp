@@ -54,7 +54,7 @@ public class PeopleListFragment extends Fragment {
             }
 
         }else{
-            Toast.makeText(context, "Better Luck Next Time Boomer!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "Better Luck Next Time!", Toast.LENGTH_SHORT).show();
         }
     }
 

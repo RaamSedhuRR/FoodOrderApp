@@ -73,7 +73,9 @@ public class VolleyFragment extends Fragment {
         progressDialog.setMessage("Loading...");
         progressDialog.show();
         RequestQueue requestQueue= Volley.newRequestQueue(context);
-        @SuppressLint("NotifyDataSetChanged") JsonArrayRequest jsonArrayRequest=new JsonArrayRequest(Request.Method.GET, url, null,response -> {
+        @SuppressLint("NotifyDataSetChanged") JsonArrayRequest jsonArrayRequest
+                = new JsonArrayRequest(Request.Method.GET, url,
+                null,response -> {
             for(int i=0;i<=response.length();i++){
                 try {
                     JSONObject jsonObject = response.getJSONObject(i);

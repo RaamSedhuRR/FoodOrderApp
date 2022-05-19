@@ -9,7 +9,9 @@ import android.os.Bundle;
 
 import com.example.lifecycleapp.databinding.ActivitySqliteDbactivityBinding;
 import com.example.lifecycleapp.fragments.PeopleListFragment;
+import com.example.lifecycleapp.fragments.RetrofitFragment;
 import com.example.lifecycleapp.fragments.SaveDataSqlDbFragment;
+import com.example.lifecycleapp.fragments.VolleyFragment;
 import com.example.lifecycleapp.fragments.VolleyFragment;
 
 public class SqliteDBActivity extends AppCompatActivity{
@@ -31,6 +33,9 @@ public class SqliteDBActivity extends AppCompatActivity{
 
         activitySqliteDbactivityBinding.btnVolley.setOnClickListener(view ->
                   replaceFragment(new VolleyFragment()));
+
+        activitySqliteDbactivityBinding.btnRetrofit.setOnClickListener(view ->
+                 replaceFragment((new RetrofitFragment())));
 
     }
 

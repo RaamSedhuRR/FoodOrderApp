@@ -13,6 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LifeCycleApp">
         <activity
+            android:name=".activity.MVPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Dagger2Activity"
+            android:exported="false" />
+        <activity
             android:name=".activity.SqliteDBActivity"
             android:exported="false" />
         <activity

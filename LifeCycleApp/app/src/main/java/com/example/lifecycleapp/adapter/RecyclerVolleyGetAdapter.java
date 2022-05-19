@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.lifecycleapp.database.User;
 import com.example.lifecycleapp.databinding.UserListDataStyleBinding;
+import com.example.lifecycleapp.retrofit.UserApi;
 import com.example.lifecycleapp.view.RecyclerUserListViewHolder;
 
 import java.util.List;
@@ -22,6 +23,7 @@ public class RecyclerVolleyGetAdapter extends RecyclerView.Adapter<RecyclerView.
         this.userList = userList;
 
     }
+
 
     @NonNull
     @Override
