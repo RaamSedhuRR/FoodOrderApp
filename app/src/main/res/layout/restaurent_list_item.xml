@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="24dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F0F3FA"
+        app:cardBackgroundColor="#F0F3FA"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/restaurentListImgView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/rounded_card"
+                android:contentDescription="@string/dish_image"
+                android:scaleType="fitXY" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/restaurentName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:ellipsize="marquee"
+                    android:maxLength="30"
+                    android:singleLine="true"
+                    android:text="@string/restaurent_name"
+                    android:fontFamily="@font/robotobolditalic"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/restaurentAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:text="@string/restaurent_address"
+                    android:fontFamily="@font/robotobolditalic"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="SmallSp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/btnAddItem"
+            android:layout_width="64dp"
+            android:padding="8dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/rounded_card"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/robotobold"
+            android:drawableLeft="@drawable/ic_baseline_add_24"
+            android:gravity="center_vertical"
+            android:text="@string/addItem"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:ignore="RtlHardcoded" />
+
+
+        <RelativeLayout
+            android:id="@+id/btnRelativeItem"
+            android:layout_width="64dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginBottom="12dp"
+            android:visibility="invisible"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="@color/white">
+
+            <TextView
+                android:id="@+id/btnAddDelAddItem"
+                android:layout_width="24dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="4dp"
+                app:drawableLeftCompat="@drawable/ic_baseline_add_box_24" />
+
+
+            <TextView
+                android:id="@+id/btnAddDelDelItem"
+                android:layout_width="24dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="4dp"
+                android:drawableRight="@drawable/ic_outline_indeterminate_check_box_24"/>
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnShareItem"
+            android:layout_width="64dp"
+            android:padding="8dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="92dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="#FFFFFF"
+            android:drawableLeft="@drawable/ic_baseline_share_24"
+            android:text="@string/shareItem"
+            android:textAlignment="center"
+            android:fontFamily="@font/robotobold"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/textPrice"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="184dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/robotoblackitalic"
+            android:gravity="center_vertical"
+            android:text="@string/_150"
+            android:textAllCaps="false"
+            android:textColor="#E49263"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

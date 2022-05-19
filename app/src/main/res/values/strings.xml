@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FoodOrderApp</string>
+    // Food Order Cart
+    <string name="btnAll">All</string>
+    <string name="btnMyRecepies">My Recipe</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="addItem">Add</string>
+    <string name="shareItem">Share</string>
+    <string name="dish_image">Dish Image</string>
+    <string name="add_button">Add Button</string>
+    <string name="share_button">Share Button</string>
+    <string name="restaurent_name">Restaurent Name</string>
+    <string name="restaurent_address">Restaurent Address</string>
+    <string name="_150">$26.00</string>
+    <string name="_counter_value">0</string>
+
+</resources>

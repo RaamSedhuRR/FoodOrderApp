@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textBtnAll">8sp</dimen>
+    <dimen name="textBtnMyRecipe">10sp</dimen>
+    <dimen name="marginLeftAndRight">16dp</dimen>
+
+</resources>
